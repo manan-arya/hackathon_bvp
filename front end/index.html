@@ -12,10 +12,59 @@
 		<script src="./UI/ui.js"></script>
 	</head>
 	<body>
-		<div class="container" id="index">
-			<a class="btn btn-primary" href="form.html" role="button">Link</a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+			<div class="container">
+			<h3 style="color:red">Know your problem and Predict your chance of winning</h3>
+		</div>
+			</nav>
+			<div class="container" id="index">
+	  <div class="row">
+	    <div class="col-sm">
+				<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Women Crime</h5>
+    <p class="card-text">98% of women crime is solved.</p>
+  </div>
+</div>
+	    </div>
+	    <div class="col-sm">
+				<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Property Matter</h5>
+    <p class="card-text">56% of Property matter is solved.</p>
+  </div>
+</div>
+	    </div>
+	    <div class="col-sm">
+				<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Fraud</h5>
+    <p class="card-text">87% of fraud case is solved.</p>
+  </div>
+</div>
+	    </div>
+	  </div>
+	</div>
+		<div class="container">
+			<button type="button" class="btn btn-secondary"><a style="color:white " href="#input">Predict Your Problem</a></button>
 			<section class="main"></section>
 			<footer></footer>
+		</div>
+		<div class="container" id="input">
+			<div class="form-group">
+				<label for="comment">Your Problem :</label>
+    <textarea class="form-control" row=6 id="name" row=6></textarea>
+	</div>
+    Email:<br>
+    <input type="text" class=".form-control" id="email">
+
+		<div class="form-group" style="margin-top:10px">
+    <button class="btn btn-primary btn-lg" onclick="JsonCoverter()">Submit</button>
+	</div>
+		</div>
 		</div>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
